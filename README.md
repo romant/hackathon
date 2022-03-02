@@ -19,22 +19,30 @@
 
 # VMware Tanzu Data Services
 
-## Greenplum
+### Greenplum
 VMware Tanzu Greenplum is based on PostgreSQL and the Greenplum Database project. It offers optional use-case specific extensions like PostGIS for geospatial analysis, and GPText (based on Apache Tika and Apache Solr) for document extraction, search, and natural language processing. These are pre-integrated to ensure a consistent experience, not a “wild-west,” DIY open source approach. Instead of depending on expensive proprietary databases, users can benefit from the contributions of a vibrant community of developers.
 
   - [Geosaptial in Greenplum](https://medium.com/greenplum-data-clinics/working-with-geospatial-data-6be87ccd7e03)
 
 
-## Gemfire
+### Gemfire
 VMware Tanzu GemFire is a distributed, in-memory, key-value store that performs read and write operations at blazingly fast speeds. It offers highly available parallel message queues, continuous availability, and an event-driven architecture you can scale dynamically, with no downtime. As your data size requirements increase to support high-performance, real-time apps, Tanzu GemFire can scale linearly with ease.
 
   - [Spring Data Gemfire Sample](https://github.com/spring-projects/spring-data-gemfire)
   - [Spring Gemfire Sample](https://github.com/spring-projects/spring-gemfire-examples)
 
 
-## RabbitMQ
+### RabbitMQ
 Messaging and streaming for modern applications on premises and across clouds
 Modernize and scale your applications with self-service, highly automated messaging and streaming for the enterprise. Available for any Kubernetes and for virtual machines.
 
 
   - [RabbitMQ Sample](https://github.com/spring-projects/spring-amqp-samples)
+
+
+
+## Training Options
+
+### Greenplum
+### Gemfire
+### RabbitMQ
