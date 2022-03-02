@@ -22,7 +22,7 @@
 ## Greenplum
 VMware Tanzu Greenplum is based on PostgreSQL and the Greenplum Database project. It offers optional use-case specific extensions like PostGIS for geospatial analysis, and GPText (based on Apache Tika and Apache Solr) for document extraction, search, and natural language processing. These are pre-integrated to ensure a consistent experience, not a “wild-west,” DIY open source approach. Instead of depending on expensive proprietary databases, users can benefit from the contributions of a vibrant community of developers.
 
-  - [Spring Data Gemfire Sample](https://github.com/spring-projects/spring-data-gemfire)
+  - [Geosaptial in Greenplum](https://medium.com/greenplum-data-clinics/working-with-geospatial-data-6be87ccd7e03)
 
 
 ## Gemfire
