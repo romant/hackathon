@@ -5,3 +5,18 @@
   - [CLI Installation Instructions](https://tanzucommunityedition.io/docs/latest/cli-installation/)
 # Training Options
 - [Kube Academy](https://kube.academy/)
+
+
+
+## VMware Tanzu Data Services
+
+# Greenplum
+
+
+# Gemfire
+  - [Spring Data Gemfire Sample](https://github.com/spring-projects/spring-data-gemfire)
+  - [Spring Gemfire Sample](https://github.com/spring-projects/spring-gemfire-examples)
+
+
+# RabbitMQ
+[RabbitMQ Sample](https://github.com/spring-projects/spring-amqp-samples)
