@@ -28,6 +28,7 @@ VMware Tanzu Greenplum is based on PostgreSQL and the Greenplum Database project
 ### Gemfire
 VMware Tanzu GemFire is a distributed, in-memory, key-value store that performs read and write operations at blazingly fast speeds. It offers highly available parallel message queues, continuous availability, and an event-driven architecture you can scale dynamically, with no downtime. As your data size requirements increase to support high-performance, real-time apps, Tanzu GemFire can scale linearly with ease.
 
+  - [Gemfire Quickstart](https://gemfire.docs.pivotal.io/910/gemfire/getting_started/15_minute_quickstart_gfsh.html)
   - [Spring Data Gemfire Sample](https://github.com/spring-projects/spring-data-gemfire)
   - [Spring Gemfire Sample](https://github.com/spring-projects/spring-gemfire-examples)
 
@@ -44,5 +45,9 @@ Modernize and scale your applications with self-service, highly automated messag
 ## Training Options
 
 ### Greenplum
+  - [Greenplum 101](https://greenplum.org/greenplum-101/)
+
 ### Gemfire
+
+
 ### RabbitMQ
