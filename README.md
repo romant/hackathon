@@ -22,13 +22,15 @@
 ### Greenplum
 VMware Tanzu Greenplum is based on PostgreSQL and the Greenplum Database project. It offers optional use-case specific extensions like PostGIS for geospatial analysis, and GPText (based on Apache Tika and Apache Solr) for document extraction, search, and natural language processing. These are pre-integrated to ensure a consistent experience, not a “wild-west,” DIY open source approach. Instead of depending on expensive proprietary databases, users can benefit from the contributions of a vibrant community of developers.
 
+  - [Greenplum OSS Download](https://github.com/greenplum-db/gpdb/releases)
   - [Greenplum 101](https://greenplum.org/greenplum-101/)
   - [Geosaptial in Greenplum](https://medium.com/greenplum-data-clinics/working-with-geospatial-data-6be87ccd7e03)
 
 
 ### Gemfire
-VMware Tanzu GemFire is a distributed, in-memory, key-value store that performs read and write operations at blazingly fast speeds. It offers highly available parallel message queues, continuous availability, and an event-driven architecture you can scale dynamically, with no downtime. As your data size requirements increase to support high-performance, real-time apps, Tanzu GemFire can scale linearly with ease.
+VMware Tanzu GemFire is a distributed, in-memory, key-value store that performs read and write operations at blazingly fast speeds basedon Apache Geode. It offers highly available parallel message queues, continuous availability, and an event-driven architecture you can scale dynamically, with no downtime. As your data size requirements increase to support high-performance, real-time apps, Tanzu GemFire can scale linearly with ease.
 
+  - [Apache Geode Download](https://geode.apache.org/releases/)
   - [Gemfire Quickstart](https://gemfire.docs.pivotal.io/910/gemfire/getting_started/15_minute_quickstart_gfsh.html)
   - [Spring Data Gemfire Sample](https://github.com/spring-projects/spring-data-gemfire)
   - [Spring Gemfire Sample](https://github.com/spring-projects/spring-gemfire-examples)
