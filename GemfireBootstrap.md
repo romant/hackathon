@@ -46,5 +46,8 @@ server2                               | 172.31.28.204(server2:16251)<v2>:41002
 
   
 We can check the cluster configuration through Web UI as well:
+Default User/ Pass is admin/admin
+
+![Gemfire - Pulse UI](https://github.com/romant/hackathon/blob/main/Pulse.png)
 
   
