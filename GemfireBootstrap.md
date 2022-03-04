@@ -21,7 +21,7 @@ The bootstrap script will run below events:
 
 Expected output:
 
-1`[INFO]: Showing Gemfire configuration, 1 locator and 2 cach servers:
+> [INFO]: Showing Gemfire configuration, 1 locator and 2 cach servers:
 
 (1) Executing - connect --locator=ip-172-31-28-204.ec2.internal[41111]
 
@@ -41,4 +41,4 @@ Member Count : 3
 locator_ip-172-31-28-204.ec2.internal | 172.31.28.204(locator_ip-172-31-28-204.ec2.internal:15603:locator)<ec><v0>:41000 [Coordinator]
 server1                               | 172.31.28.204(server1:15902)<v1>:41001
 server2                               | 172.31.28.204(server2:16251)<v2>:41002
-`
+
