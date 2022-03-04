@@ -19,13 +19,6 @@
 
 # VMware Tanzu Data Services
 
-### Greenplum
-VMware Tanzu Greenplum is based on PostgreSQL and the Greenplum Database project. It offers optional use-case specific extensions like PostGIS for geospatial analysis, and GPText (based on Apache Tika and Apache Solr) for document extraction, search, and natural language processing. These are pre-integrated to ensure a consistent experience, not a “wild-west,” DIY open source approach. Instead of depending on expensive proprietary databases, users can benefit from the contributions of a vibrant community of developers.
-
-  - [Greenplum OSS Download](https://github.com/greenplum-db/gpdb/releases)
-  - [Greenplum 101](https://greenplum.org/greenplum-101/)
-  - [Geosaptial in Greenplum](https://medium.com/greenplum-data-clinics/working-with-geospatial-data-6be87ccd7e03)
-
 
 ### Gemfire
 VMware Tanzu GemFire is a distributed, in-memory, key-value store that performs read and write operations at blazingly fast speeds basedon Apache Geode. It offers highly available parallel message queues, continuous availability, and an event-driven architecture you can scale dynamically, with no downtime. As your data size requirements increase to support high-performance, real-time apps, Tanzu GemFire can scale linearly with ease.
@@ -36,12 +29,10 @@ VMware Tanzu GemFire is a distributed, in-memory, key-value store that performs 
   - [Spring Gemfire Sample](https://github.com/spring-projects/spring-gemfire-examples)
 
 
-### RabbitMQ
-Messaging and streaming for modern applications on premises and across clouds
-Modernize and scale your applications with self-service, highly automated messaging and streaming for the enterprise. Available for any Kubernetes and for virtual machines.
+### Tanzu SQL (PostgreSQL)
+Tanzu SQL provides your choice of open-source database engines based on MySQL and Postgres. With Tanzu SQL, application developers can manage data services in the same way as the rest of the application stack.
 
-
-  - [RabbitMQ Sample](https://github.com/spring-projects/spring-amqp-samples)
+  - [PostgreSQL Bootstrap](https://github.com/spring-projects/spring-amqp-samples)
 
 
 
