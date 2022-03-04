@@ -32,7 +32,7 @@ VMware Tanzu GemFire is a distributed, in-memory, key-value store that performs 
 ### Tanzu SQL (PostgreSQL)
 Tanzu SQL provides your choice of open-source database engines based on MySQL and Postgres. With Tanzu SQL, application developers can manage data services in the same way as the rest of the application stack.
 
-  - [PostgreSQL Bootstrap](https://github.com/romant/hackathon/blob/main/PostgresqlBootstrap)
+  - [PostgreSQL Bootstrap](PostgresqlBootstrap.md)
 
 
 
