@@ -24,11 +24,11 @@ bash psql_install.sh
 The bootstrap script will run below events:
 
 
-Cleanup previous installation
-Install Postgresql
-Initialize the DB
-Start the Database
-Show the running DB service
+1. Cleanup previous installation
+2. Install Postgresql
+3. Initialize the DB
+4. Start the Database
+5. Show the running DB service
 Expected output:
 
 ```
