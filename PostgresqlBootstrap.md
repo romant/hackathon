@@ -25,7 +25,7 @@ Start the Database
 Show the running DB service
 Expected output:
 
- Complete!
+* Complete!
 Running initdb
 Initializing database ... OK
 
@@ -42,6 +42,6 @@ Querying the newly created table in the newly created database.
  tag_name | tag_value
 ----------+------------
  Hello    | Postgresql
-(1 row)
+(1 row) *
 
 ## Setup completed.
