@@ -15,7 +15,7 @@ Run it as normal script:
 >bash gemfireBootstrap.sh
 
 The bootstrap script will run below events:
-1. Cleanup precious install
+1. Cleanup previous installation
 2. Install JDK
 3. Setup Gemfire path
 4. Setup JAVA_HOME
