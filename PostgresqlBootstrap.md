@@ -18,7 +18,7 @@ Run it as normal script:
 
 The bootstrap script will run below events:
 
-```
+
 Cleanup previous installation
 Install Postgresql
 Initialize the DB
@@ -26,6 +26,7 @@ Start the Database
 Show the running DB service
 Expected output:
 
+```
 * Complete!
 Running initdb
 Initializing database ... OK
