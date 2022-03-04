@@ -19,7 +19,7 @@ Need to copy below script to AWS EC2 instance on home directory:
 
 
 Run it as normal script:
-* bash psql_install.sh *
+- bash psql_install.sh -
 
 The bootstrap script will run below events:
 
