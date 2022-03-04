@@ -10,6 +10,4 @@ create table hello(
 );
 
 
-
-
 insert into hello (tag_name, tag_value) values('Hello', 'Postgresql');
