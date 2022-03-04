@@ -1,12 +1,12 @@
 echo "cleaning up PostgreSQL"
 sudo systemctl start postgresql
 sudo yum remove -y postgresql-server postgresql-contrib
-rm -rf /var/lib/pgsql/data
+sudo rm -rf /var/lib/pgsql/data
 echo "installing PostgreSQL"
 sudo yum install -y postgresql-server postgresql-contrib
 echo "Running initdb"
 sudo postgresql-setup initdb
-cp -rp /home/ec2-user/psql/pg_hba.conf /var/lib/pgsql/data
+sudo cp -rp /home/ec2-user/psql/pg_hba.conf /var/lib/pgsql/data
 echo "Starting PostgreSQL"
 sudo systemctl start postgresql
 sudo systemctl enable postgresql
