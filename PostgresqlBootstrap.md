@@ -7,9 +7,9 @@ We can do simple bootstrap on Postgresql by following below instructions. This s
 
 ## *Pre-requisites:*
 
-> AWC EC2 Instance with either Amazon Linux 2 AMI or RHEL 8
-> Postgresql server is part of Amazon Linux 2 AMI OS
-> create a directory named "psql[mkdir /home/ec2-user/psql]" and Copy below script to your AWS home directory:/home/ec2-user/psql
+- AWC EC2 Instance with either Amazon Linux 2 AMI or RHEL 8
+- Postgresql server is part of Amazon Linux 2 AMI OS
+- create a directory named "psql[mkdir /home/ec2-user/psql]" and Copy below script to your AWS home directory:/home/ec2-user/psql
 
 ### Postgressql Bootstrap Script
 Run it as normal script:
