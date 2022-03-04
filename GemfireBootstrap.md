@@ -2,9 +2,11 @@
 ### Gemfire
 VMware Tanzu GemFire is a distributed, in-memory, key-value store that performs read and write operations at blazingly fast speeds basedon Apache Geode. It offers highly available parallel message queues, continuous availability, and an event-driven architecture you can scale dynamically, with no downtime. As your data size requirements increase to support high-performance, real-time apps, Tanzu GemFire can scale linearly with ease.
 
-We can do  simple bootstrap on Gemfire by following below instructions. This script developed for AWS environment, can be deployed on EC2 AMI 2 or RHEL 8.
+We can do  simple bootstrap on Gemfire by following below instructions. This script developed for AWS environment.
 Pre-requisites:
-
+- AWC EC2 Instance with either Amazon Linux 2 AM or RHEL 8
+- Gemfire binary in tar.gz format, version changes can be adapted on the script with minor changes
+- Necessary firewall config open in AWS for accesing the service and Web UI
 
 Copy below script to your AWS home directory:
   - [Gemfire Bootstrap Script](gemfireBootstrap.sh)
