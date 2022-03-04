@@ -1,10 +1,11 @@
 **Postgres**
+
 Postgres is a 100% open source Object-Relational Database Management System (ORDBMS) that supports a large part of the SQL standard.
 VMware Postgres is based on the PostgreSQL source code published at https://www.postgresql.org and other PostgreSQL software.
 
 We can do simple bootstrap on Postgresql by following below instructions. This script developed for AWS environment. 
 
-Pre-requisites:
+*Pre-requisites:*
 
 AWC EC2 Instance with either Amazon Linux 2 AMI or RHEL 8
 Postgresql server is part of Amazon Linux 2 AMI OS
