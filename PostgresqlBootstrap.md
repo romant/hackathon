@@ -7,25 +7,26 @@ We can do simple bootstrap on Postgresql by following below instructions. This s
 
 ## *Pre-requisites:*
 
-- AWC EC2 Instance with either Amazon Linux 2 AMI or RHEL 8
-- Postgresql server is part of Amazon Linux 2 AMI OS
-- create a directory named "psql[mkdir /home/ec2-user/psql]" and Copy below script to your AWS home directory:/home/ec2-user/psql
+> AWC EC2 Instance with either Amazon Linux 2 AMI or RHEL 8
+> Postgresql server is part of Amazon Linux 2 AMI OS
+> create a directory named "psql[mkdir /home/ec2-user/psql]" and Copy below script to your AWS home directory:/home/ec2-user/psql
 
 ### Postgressql Bootstrap Script
 Run it as normal script:
+  - [PostgreSQL Main Bootstrap Script](https://github.com/romant/hackathon/blob/main/psql_install.sh)
+  - [PostgreSQL pg_hba.conf](https://github.com/romant/hackathon/blob/main/pg_hba.conf)
+  - [PostgreSQL Startup Script](https://github.com/romant/hackathon/blob/main/startup.sql)
 
 * bash psql_install.sh *
 
 The bootstrap script will run below events:
 
 
-1. Cleanup previous installation
-2. Install Postgresql
-3. Initialize the DB
-4. Start the Database
-5. Show the running DB service
-
-
+Cleanup previous installation
+Install Postgresql
+Initialize the DB
+Start the Database
+Show the running DB service
 Expected output:
 
 ```
