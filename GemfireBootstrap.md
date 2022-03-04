@@ -46,4 +46,5 @@ server2                               | 172.31.28.204(server2:16251)<v2>:41002
 
   
 We can check the cluster configuration through Web UI as well:
+
   
