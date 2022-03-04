@@ -1,4 +1,4 @@
-# Postgresql
+# PostgresSQL
 
 Postgres is a 100% open source Object-Relational Database Management System (ORDBMS) that supports a large part of the SQL standard.
 VMware Postgres is based on the PostgreSQL source code published at https://www.postgresql.org and other PostgreSQL software.
@@ -19,7 +19,7 @@ Need to copy below script to AWS EC2 instance on home directory:
 
 
 Run it as normal script:
-- bash psql_install.sh -
+bash psql_install.sh
 
 The bootstrap script will run below events:
 
