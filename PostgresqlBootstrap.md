@@ -12,11 +12,13 @@ We can do simple bootstrap on Postgresql by following below instructions. This s
 > create a directory named "psql[mkdir /home/ec2-user/psql]" and Copy below script to your AWS home directory:/home/ec2-user/psql
 
 ### Postgressql Bootstrap Script
-Run it as normal script:
+Need to copy below script to AWS EC2 instance on home directory:
   - [PostgreSQL Main Bootstrap Script](https://github.com/romant/hackathon/blob/main/psql_install.sh)
   - [PostgreSQL pg_hba.conf](https://github.com/romant/hackathon/blob/main/pg_hba.conf)
   - [PostgreSQL Startup Script](https://github.com/romant/hackathon/blob/main/startup.sql)
 
+
+Run it as normal script:
 * bash psql_install.sh *
 
 The bootstrap script will run below events:
