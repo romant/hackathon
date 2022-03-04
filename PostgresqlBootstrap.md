@@ -29,7 +29,7 @@ The bootstrap script will run below events:
 3. Initialize the DB
 4. Start the Database
 5. Show the running DB service
-6. 
+
 Expected output:
 
 ```
