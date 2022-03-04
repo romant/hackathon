@@ -1,20 +1,20 @@
-#Postgres
+# Postgres
 
 Postgres is a 100% open source Object-Relational Database Management System (ORDBMS) that supports a large part of the SQL standard.
 VMware Postgres is based on the PostgreSQL source code published at https://www.postgresql.org and other PostgreSQL software.
 
 We can do simple bootstrap on Postgresql by following below instructions. This script developed for AWS environment. 
 
-*Pre-requisites:*
+## *Pre-requisites:*
 
 AWC EC2 Instance with either Amazon Linux 2 AMI or RHEL 8
 Postgresql server is part of Amazon Linux 2 AMI OS
 create a directory named "psql[mkdir /home/ec2-user/psql]" and Copy below script to your AWS home directory:/home/ec2-user/psql
 
-Postgressql Bootstrap Script
+### Postgressql Bootstrap Script
 Run it as normal script:
 
-bash psql_install.sh
+* bash psql_install.sh *
 
 The bootstrap script will run below events:
 
@@ -44,4 +44,4 @@ Querying the newly created table in the newly created database.
  Hello    | Postgresql
 (1 row)
 
-Setup completed.
+## Setup completed.
