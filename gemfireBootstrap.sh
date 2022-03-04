@@ -30,10 +30,11 @@ function waitForPort {
 
 # Go HOME directory
 cd
+vWORKINGDIR=`pwd`
 
 # CONFIGURABLE PARAMETERS
 wget https://installerrepo.s3.ap-southeast-1.amazonaws.com/pivotal-gemfire-9.10.14.tgz -O pivotal-gemfire-9.10.14.tgz
-export GEMFIREDIR=/home/ec2-user/gemfire
+export GEMFIREDIR=${vWORKINGDIR}/gemfire
 export GEMFIREBINARY="pivotal-gemfire-9.10.14"
 # CONFIGURABLE PARAMETERS
 
@@ -48,9 +49,9 @@ sudo yum install java-1.8.0-openjdk -y
 
 echo "[INFO]: Setup new Gemfire environment"
 tar -zxvf ${GEMFIREBINARY}.tgz
-export GF_HOME=/home/ec2-user/${GEMFIREBINARY}
-export CLASSPATH=/home/ec2-user/${GEMFIREBINARY}/lib:$GF_HOME/bin:$CLASSPATH
-export PATH=/home/ec2-user/${GEMFIREBINARY}/lib:$GF_HOME/bin:$PATH
+export GF_HOME=${vWORKINGDIR}/${GEMFIREBINARY}
+export CLASSPATH=${vWORKINGDIR}/${GEMFIREBINARY}/lib:$GF_HOME/bin:$CLASSPATH
+export PATH=${vWORKINGDIR}/${GEMFIREBINARY}/lib:$GF_HOME/bin:$PATH
 vJDKPATH=`ls -lrth /usr/lib/jvm/ | grep jdk | grep drwxr | awk '{print "/usr/lib/jvm/"$9}'`
 export JAVA_HOME=${vJDKPATH}/jre
 export CLASSPATH=${JAVA_HOME}/bin:$CLASSPATH
