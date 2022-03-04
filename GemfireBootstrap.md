@@ -9,7 +9,8 @@ Pre-requisites:
 Copy below script to your AWS home directory:
   - [Gemfire Bootstrap Script](gemfireBootstrap.sh)
 
-Run it as normal script >bash gemfireBootstrap.sh
+Run it as normal script:
+>bash gemfireBootstrap.sh
 
 The bootstrap script will run below events:
 1. Cleanup precious install
