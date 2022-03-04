@@ -28,14 +28,17 @@ function waitForPort {
     done
 }
 
+# Go HOME directory
+cd
+
 # CONFIGURABLE PARAMETERS
+wget https://installerrepo.s3.ap-southeast-1.amazonaws.com/pivotal-gemfire-9.10.14.tgz -O pivotal-gemfire-9.10.14.tgz
 export GEMFIREDIR=/home/ec2-user/gemfire
 export GEMFIREBINARY="pivotal-gemfire-9.10.14"
 # CONFIGURABLE PARAMETERS
 
 
 echo "[INFO]: Cleanup previous install"
-cd
 rm -rf ${GEMFIREBINARY}
 rm -rf ${GEMFIREDIR}
 
